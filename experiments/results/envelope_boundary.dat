@@ -1,0 +1,6 @@
+# slope_s  label
+0.5592  no ageing (phi=0)
+1.5592  phi=0.5, T=2 s
+2.5592  phi=1, T=2 s
+5.5592  phi=0.5, T=10 s
+10.5592  phi=1, T=10 s

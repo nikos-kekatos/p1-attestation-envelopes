@@ -1,0 +1,70 @@
+
+<style>
+.stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; margin-bottom: 2rem; }
+.stat-card { background: var(--color-background-secondary); border-radius: var(--border-radius-md); padding: 1rem; }
+.stat-label { font-size: 12px; color: var(--color-text-secondary); margin: 0 0 4px; }
+.stat-value { font-size: 22px; font-weight: 500; color: var(--color-text-primary); margin: 0; }
+.stat-unit { font-size: 13px; font-weight: 400; color: var(--color-text-secondary); }
+.section-label { font-size: 13px; font-weight: 500; color: var(--color-text-secondary); margin: 0 0 10px; letter-spacing: 0.03em; }
+</style>
+
+<h2 class="sr-only">Summary statistics for EtE Delay and Attestation Delay across 50 trials</h2>
+
+<div style="padding: 1rem 0 0;">
+  <p class="section-label">EtE delay</p>
+  <div class="stat-grid" id="ete-cards"></div>
+  <p class="section-label">Attestation delay</p>
+  <div class="stat-grid" id="att-cards"></div>
+
+  <div style="position: relative; width: 100%; height: 300px; margin-top: 1rem;">
+    <canvas id="chart" role="img" aria-label="Bar chart comparing mean, min, and max for EtE Delay and Attestation Delay">EtE Delay mean 421ms, min 288ms, max 624ms. Attestation Delay mean 29ms, min 13.8ms, max 147.3ms.</canvas>
+  </div>
+  <div style="display: flex; flex-wrap: wrap; gap: 16px; margin-top: 10px; font-size: 12px; color: var(--color-text-secondary);">
+    <span style="display:flex;align-items:center;gap:4px;"><span style="width:10px;height:10px;border-radius:2px;background:#534AB7;"></span>EtE delay</span>
+    <span style="display:flex;align-items:center;gap:4px;"><span style="width:10px;height:10px;border-radius:2px;background:#0F6E56;"></span>Attestation delay</span>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script>
+const eteRaw = [436.09,393.09,325.06,288.05,435.61,450.14,384.26,380.08,388.83,395.59,500.14,498.62,490.62,357.13,489.21,494.73,402.67,624.16,413.04,347.60,364.09,357.06,317.08,349.05,429.65,474.69,560.61,428.11,368.60,403.55,482.08,469.15,426.58,347.59,448.13,486.63,305.15,384.11,454.60,452.94,364.85,492.61,412.51,450.06,554.64,559.21,345.60,405.05,324.06,428.56];
+const attRaw = [0.0229,0.0503,0.0157,0.0162,0.0694,0.0183,0.0190,0.0173,0.0548,0.0167,0.0185,0.0156,0.0204,0.0162,0.0342,0.0159,0.0161,0.0262,0.0195,0.0326,0.0182,0.0188,0.0144,0.0147,0.0216,0.0181,0.0445,0.0174,0.0406,0.0285,0.0939,0.0172,0.0515,0.0215,0.0263,0.0169,0.0153,0.0518,0.0159,0.0155,0.0459,0.0302,0.0319,0.0222,0.1286,0.1473,0.0138,0.0735,0.0147,0.0784];
+
+const mean = arr => arr.reduce((a,b)=>a+b,0)/arr.length;
+const eteMean = mean(eteRaw), eteMin = Math.min(...eteRaw), eteMax = Math.max(...eteRaw);
+const attMean = mean(attRaw)*1000, attMin = Math.min(...attRaw)*1000, attMax = Math.max(...attRaw)*1000;
+
+function makeCards(containerId, stats) {
+  const el = document.getElementById(containerId);
+  stats.forEach(s => {
+    el.innerHTML += `<div class="stat-card"><p class="stat-label">${s.label}</p><p class="stat-value">${s.val}<span class="stat-unit"> ${s.unit}</span></p></div>`;
+  });
+}
+
+makeCards('ete-cards', [
+  {label:'Mean', val: eteMean.toFixed(2), unit:'ms'},
+  {label:'Min', val: eteMin.toFixed(2), unit:'ms'},
+  {label:'Max', val: eteMax.toFixed(2), unit:'ms'},
+]);
+makeCards('att-cards', [
+  {label:'Mean', val: attMean.toFixed(2), unit:'ms'},
+  {label:'Min', val: attMin.toFixed(2), unit:'ms'},
+  {label:'Max', val: attMax.toFixed(2), unit:'ms'},
+]);
+
+new Chart(document.getElementById('chart'), {
+  type: 'bar',
+  data: {
+    labels: ['Mean', 'Min', 'Max'],
+    datasets: [
+      { label: 'EtE delay (ms)', data: [+eteMean.toFixed(2), +eteMin.toFixed(2), +eteMax.toFixed(2)], backgroundColor: '#534AB7' },
+      { label: 'Attestation delay (ms)', data: [+attMean.toFixed(2), +attMin.toFixed(2), +attMax.toFixed(2)], backgroundColor: '#0F6E56' }
+    ]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { display: false } },
+    scales: { y: { beginAtZero: true, ticks: { callback: v => v + 'ms' } } }
+  }
+});
+</script>

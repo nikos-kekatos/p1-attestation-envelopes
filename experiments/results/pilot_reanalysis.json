@@ -1,0 +1,69 @@
+{
+  "end-to-end": {
+    "name": "end-to-end",
+    "n": 50,
+    "min": 288.05,
+    "p25": 364.85,
+    "median": 419.81,
+    "p75": 474.69,
+    "p90": 498.62,
+    "p95": 559.21,
+    "max_observed": 624.16,
+    "mean": 422.8264,
+    "sd": 71.51236530167353,
+    "median_ci95": [
+      393.09,
+      448.13
+    ],
+    "mean_ci95": [
+      403.443,
+      443.262
+    ],
+    "iqr": 109.83999999999997,
+    "skew_ratio": 1.0071851551892521,
+    "file_summary_mean": 421.77,
+    "file_summary_delta": 1.0563999999999965
+  },
+  "attestation component": {
+    "name": "attestation component",
+    "n": 50,
+    "min": 13.799999999999999,
+    "p25": 16.2,
+    "median": 19.950000000000003,
+    "p75": 40.599999999999994,
+    "p90": 69.4,
+    "p95": 93.89999999999999,
+    "max_observed": 147.29999999999998,
+    "mean": 33.298,
+    "sd": 28.381483329805015,
+    "median_ci95": [
+      17.799999999999997,
+      27.35
+    ],
+    "mean_ci95": [
+      26.014,
+      41.698
+    ],
+    "iqr": 24.399999999999995,
+    "skew_ratio": 1.6690726817042605,
+    "file_summary_mean": 29.17,
+    "file_summary_delta": 4.128
+  },
+  "loaded_condition": {
+    "n_trials_stated_in_chart_legend": 7,
+    "raw_samples_available": false,
+    "reported_summary": {
+      "end-to-end": {
+        "mean": 538.74,
+        "min": 438.67,
+        "max": 656.15
+      },
+      "attestation component": {
+        "mean": 26.24,
+        "min": 14.4,
+        "max": 59.2
+      }
+    },
+    "status": "RERUN REQUIRED"
+  }
+}

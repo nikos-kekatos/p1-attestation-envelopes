@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "Mission-Aware Attestation Envelopes: reproduction repository"
+abstract: >-
+  Analysis code and pilot latency data for the assurance-contract formulation of
+  remote attestation and the construction of attestation envelopes, from a
+  hardware-in-the-loop vehicle-to-infrastructure study.
+authors:
+  - family-names: Nikou
+    given-names: Dimitrios
+    affiliation: "International Hellenic University, Greece"
+  - family-names: Kekatos
+    given-names: Nikolaos
+    affiliation: "Clone Systems, Cyprus"
+  - family-names: Petridou
+    given-names: Sofia
+    affiliation: "University of Macedonia, Greece"
+  - family-names: Basagiannis
+    given-names: Stylianos
+    affiliation: "International Hellenic University, Greece"
+license: "NOASSERTION"
+type: software
+preferred-citation:
+  type: conference-paper
+  title: >-
+    Mission-Aware Attestation Envelopes for Time-Critical Autonomous Action:
+    A Hardware-in-the-Loop V2I Study
+  authors:
+    - family-names: Nikou
+      given-names: Dimitrios
+    - family-names: Kekatos
+      given-names: Nikolaos
+    - family-names: Petridou
+      given-names: Sofia
+    - family-names: Basagiannis
+      given-names: Stylianos
+  year: 2026

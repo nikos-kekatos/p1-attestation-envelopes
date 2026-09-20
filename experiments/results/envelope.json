@@ -1,0 +1,1690 @@
+{
+  "provisional": true,
+  "interval_s": 2.0,
+  "latency_n": 50,
+  "threshold": 0.95,
+  "feasible_ideal": 60,
+  "feasible_hil": 46,
+  "rows": [
+    {
+      "speed_kmh": 50,
+      "distance_m": 20,
+      "phase": 0.0,
+      "f_max_ms": 1440.0,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 1440.0,
+        "evidence_age_at_request_ms": 0.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 1440.0,
+        "evidence_age_at_request_ms": 0.0
+      }
+    },
+    {
+      "speed_kmh": 50,
+      "distance_m": 20,
+      "phase": 0.25,
+      "f_max_ms": 1440.0,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 1440.0,
+        "evidence_age_at_request_ms": 500.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 1440.0,
+        "evidence_age_at_request_ms": 500.0
+      }
+    },
+    {
+      "speed_kmh": 50,
+      "distance_m": 20,
+      "phase": 0.5,
+      "f_max_ms": 1440.0,
+      "hil": {
+        "n": 50,
+        "k": 31,
+        "p": 0.62,
+        "ci95": [
+          0.48150195022393577,
+          0.7413740415742277
+        ],
+        "budget_ms": 1440.0,
+        "evidence_age_at_request_ms": 1000.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 1440.0,
+        "evidence_age_at_request_ms": 1000.0
+      }
+    },
+    {
+      "speed_kmh": 50,
+      "distance_m": 20,
+      "phase": 0.75,
+      "f_max_ms": 1440.0,
+      "hil": {
+        "n": 50,
+        "k": 0,
+        "p": 0.0,
+        "ci95": [
+          0.0,
+          0.07135003417431873
+        ],
+        "budget_ms": 1440.0,
+        "evidence_age_at_request_ms": 1500.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 1440.0,
+        "evidence_age_at_request_ms": 1500.0
+      }
+    },
+    {
+      "speed_kmh": 50,
+      "distance_m": 20,
+      "phase": 1.0,
+      "f_max_ms": 1440.0,
+      "hil": {
+        "n": 50,
+        "k": 0,
+        "p": 0.0,
+        "ci95": [
+          0.0,
+          0.07135003417431873
+        ],
+        "budget_ms": 1440.0,
+        "evidence_age_at_request_ms": 2000.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 1440.0,
+        "evidence_age_at_request_ms": 2000.0
+      }
+    },
+    {
+      "speed_kmh": 50,
+      "distance_m": 50,
+      "phase": 0.0,
+      "f_max_ms": 3600.0,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 3600.0,
+        "evidence_age_at_request_ms": 0.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 3600.0,
+        "evidence_age_at_request_ms": 0.0
+      }
+    },
+    {
+      "speed_kmh": 50,
+      "distance_m": 50,
+      "phase": 0.25,
+      "f_max_ms": 3600.0,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 3600.0,
+        "evidence_age_at_request_ms": 500.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 3600.0,
+        "evidence_age_at_request_ms": 500.0
+      }
+    },
+    {
+      "speed_kmh": 50,
+      "distance_m": 50,
+      "phase": 0.5,
+      "f_max_ms": 3600.0,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 3600.0,
+        "evidence_age_at_request_ms": 1000.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 3600.0,
+        "evidence_age_at_request_ms": 1000.0
+      }
+    },
+    {
+      "speed_kmh": 50,
+      "distance_m": 50,
+      "phase": 0.75,
+      "f_max_ms": 3600.0,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 3600.0,
+        "evidence_age_at_request_ms": 1500.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 3600.0,
+        "evidence_age_at_request_ms": 1500.0
+      }
+    },
+    {
+      "speed_kmh": 50,
+      "distance_m": 50,
+      "phase": 1.0,
+      "f_max_ms": 3600.0,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 3600.0,
+        "evidence_age_at_request_ms": 2000.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 3600.0,
+        "evidence_age_at_request_ms": 2000.0
+      }
+    },
+    {
+      "speed_kmh": 50,
+      "distance_m": 100,
+      "phase": 0.0,
+      "f_max_ms": 7200.0,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 7200.0,
+        "evidence_age_at_request_ms": 0.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 7200.0,
+        "evidence_age_at_request_ms": 0.0
+      }
+    },
+    {
+      "speed_kmh": 50,
+      "distance_m": 100,
+      "phase": 0.25,
+      "f_max_ms": 7200.0,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 7200.0,
+        "evidence_age_at_request_ms": 500.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 7200.0,
+        "evidence_age_at_request_ms": 500.0
+      }
+    },
+    {
+      "speed_kmh": 50,
+      "distance_m": 100,
+      "phase": 0.5,
+      "f_max_ms": 7200.0,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 7200.0,
+        "evidence_age_at_request_ms": 1000.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 7200.0,
+        "evidence_age_at_request_ms": 1000.0
+      }
+    },
+    {
+      "speed_kmh": 50,
+      "distance_m": 100,
+      "phase": 0.75,
+      "f_max_ms": 7200.0,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 7200.0,
+        "evidence_age_at_request_ms": 1500.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 7200.0,
+        "evidence_age_at_request_ms": 1500.0
+      }
+    },
+    {
+      "speed_kmh": 50,
+      "distance_m": 100,
+      "phase": 1.0,
+      "f_max_ms": 7200.0,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 7200.0,
+        "evidence_age_at_request_ms": 2000.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 7200.0,
+        "evidence_age_at_request_ms": 2000.0
+      }
+    },
+    {
+      "speed_kmh": 50,
+      "distance_m": 150,
+      "phase": 0.0,
+      "f_max_ms": 10799.999999999998,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 10799.999999999998,
+        "evidence_age_at_request_ms": 0.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 10799.999999999998,
+        "evidence_age_at_request_ms": 0.0
+      }
+    },
+    {
+      "speed_kmh": 50,
+      "distance_m": 150,
+      "phase": 0.25,
+      "f_max_ms": 10799.999999999998,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 10799.999999999998,
+        "evidence_age_at_request_ms": 500.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 10799.999999999998,
+        "evidence_age_at_request_ms": 500.0
+      }
+    },
+    {
+      "speed_kmh": 50,
+      "distance_m": 150,
+      "phase": 0.5,
+      "f_max_ms": 10799.999999999998,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 10799.999999999998,
+        "evidence_age_at_request_ms": 1000.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 10799.999999999998,
+        "evidence_age_at_request_ms": 1000.0
+      }
+    },
+    {
+      "speed_kmh": 50,
+      "distance_m": 150,
+      "phase": 0.75,
+      "f_max_ms": 10799.999999999998,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 10799.999999999998,
+        "evidence_age_at_request_ms": 1500.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 10799.999999999998,
+        "evidence_age_at_request_ms": 1500.0
+      }
+    },
+    {
+      "speed_kmh": 50,
+      "distance_m": 150,
+      "phase": 1.0,
+      "f_max_ms": 10799.999999999998,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 10799.999999999998,
+        "evidence_age_at_request_ms": 2000.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 10799.999999999998,
+        "evidence_age_at_request_ms": 2000.0
+      }
+    },
+    {
+      "speed_kmh": 80,
+      "distance_m": 20,
+      "phase": 0.0,
+      "f_max_ms": 900.0,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 900.0,
+        "evidence_age_at_request_ms": 0.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 900.0,
+        "evidence_age_at_request_ms": 0.0
+      }
+    },
+    {
+      "speed_kmh": 80,
+      "distance_m": 20,
+      "phase": 0.25,
+      "f_max_ms": 900.0,
+      "hil": {
+        "n": 50,
+        "k": 20,
+        "p": 0.4,
+        "ci95": [
+          0.2760818978624575,
+          0.5381881089724063
+        ],
+        "budget_ms": 900.0,
+        "evidence_age_at_request_ms": 500.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 900.0,
+        "evidence_age_at_request_ms": 500.0
+      }
+    },
+    {
+      "speed_kmh": 80,
+      "distance_m": 20,
+      "phase": 0.5,
+      "f_max_ms": 900.0,
+      "hil": {
+        "n": 50,
+        "k": 0,
+        "p": 0.0,
+        "ci95": [
+          0.0,
+          0.07135003417431873
+        ],
+        "budget_ms": 900.0,
+        "evidence_age_at_request_ms": 1000.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 900.0,
+        "evidence_age_at_request_ms": 1000.0
+      }
+    },
+    {
+      "speed_kmh": 80,
+      "distance_m": 20,
+      "phase": 0.75,
+      "f_max_ms": 900.0,
+      "hil": {
+        "n": 50,
+        "k": 0,
+        "p": 0.0,
+        "ci95": [
+          0.0,
+          0.07135003417431873
+        ],
+        "budget_ms": 900.0,
+        "evidence_age_at_request_ms": 1500.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 900.0,
+        "evidence_age_at_request_ms": 1500.0
+      }
+    },
+    {
+      "speed_kmh": 80,
+      "distance_m": 20,
+      "phase": 1.0,
+      "f_max_ms": 900.0,
+      "hil": {
+        "n": 50,
+        "k": 0,
+        "p": 0.0,
+        "ci95": [
+          0.0,
+          0.07135003417431873
+        ],
+        "budget_ms": 900.0,
+        "evidence_age_at_request_ms": 2000.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 900.0,
+        "evidence_age_at_request_ms": 2000.0
+      }
+    },
+    {
+      "speed_kmh": 80,
+      "distance_m": 50,
+      "phase": 0.0,
+      "f_max_ms": 2250.0,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 2250.0,
+        "evidence_age_at_request_ms": 0.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 2250.0,
+        "evidence_age_at_request_ms": 0.0
+      }
+    },
+    {
+      "speed_kmh": 80,
+      "distance_m": 50,
+      "phase": 0.25,
+      "f_max_ms": 2250.0,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 2250.0,
+        "evidence_age_at_request_ms": 500.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 2250.0,
+        "evidence_age_at_request_ms": 500.0
+      }
+    },
+    {
+      "speed_kmh": 80,
+      "distance_m": 50,
+      "phase": 0.5,
+      "f_max_ms": 2250.0,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 2250.0,
+        "evidence_age_at_request_ms": 1000.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 2250.0,
+        "evidence_age_at_request_ms": 1000.0
+      }
+    },
+    {
+      "speed_kmh": 80,
+      "distance_m": 50,
+      "phase": 0.75,
+      "f_max_ms": 2250.0,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 2250.0,
+        "evidence_age_at_request_ms": 1500.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 2250.0,
+        "evidence_age_at_request_ms": 1500.0
+      }
+    },
+    {
+      "speed_kmh": 80,
+      "distance_m": 50,
+      "phase": 1.0,
+      "f_max_ms": 2250.0,
+      "hil": {
+        "n": 50,
+        "k": 0,
+        "p": 0.0,
+        "ci95": [
+          0.0,
+          0.07135003417431873
+        ],
+        "budget_ms": 2250.0,
+        "evidence_age_at_request_ms": 2000.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 2250.0,
+        "evidence_age_at_request_ms": 2000.0
+      }
+    },
+    {
+      "speed_kmh": 80,
+      "distance_m": 100,
+      "phase": 0.0,
+      "f_max_ms": 4500.0,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 4500.0,
+        "evidence_age_at_request_ms": 0.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 4500.0,
+        "evidence_age_at_request_ms": 0.0
+      }
+    },
+    {
+      "speed_kmh": 80,
+      "distance_m": 100,
+      "phase": 0.25,
+      "f_max_ms": 4500.0,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 4500.0,
+        "evidence_age_at_request_ms": 500.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 4500.0,
+        "evidence_age_at_request_ms": 500.0
+      }
+    },
+    {
+      "speed_kmh": 80,
+      "distance_m": 100,
+      "phase": 0.5,
+      "f_max_ms": 4500.0,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 4500.0,
+        "evidence_age_at_request_ms": 1000.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 4500.0,
+        "evidence_age_at_request_ms": 1000.0
+      }
+    },
+    {
+      "speed_kmh": 80,
+      "distance_m": 100,
+      "phase": 0.75,
+      "f_max_ms": 4500.0,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 4500.0,
+        "evidence_age_at_request_ms": 1500.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 4500.0,
+        "evidence_age_at_request_ms": 1500.0
+      }
+    },
+    {
+      "speed_kmh": 80,
+      "distance_m": 100,
+      "phase": 1.0,
+      "f_max_ms": 4500.0,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 4500.0,
+        "evidence_age_at_request_ms": 2000.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 4500.0,
+        "evidence_age_at_request_ms": 2000.0
+      }
+    },
+    {
+      "speed_kmh": 80,
+      "distance_m": 150,
+      "phase": 0.0,
+      "f_max_ms": 6750.0,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 6750.0,
+        "evidence_age_at_request_ms": 0.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 6750.0,
+        "evidence_age_at_request_ms": 0.0
+      }
+    },
+    {
+      "speed_kmh": 80,
+      "distance_m": 150,
+      "phase": 0.25,
+      "f_max_ms": 6750.0,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 6750.0,
+        "evidence_age_at_request_ms": 500.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 6750.0,
+        "evidence_age_at_request_ms": 500.0
+      }
+    },
+    {
+      "speed_kmh": 80,
+      "distance_m": 150,
+      "phase": 0.5,
+      "f_max_ms": 6750.0,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 6750.0,
+        "evidence_age_at_request_ms": 1000.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 6750.0,
+        "evidence_age_at_request_ms": 1000.0
+      }
+    },
+    {
+      "speed_kmh": 80,
+      "distance_m": 150,
+      "phase": 0.75,
+      "f_max_ms": 6750.0,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 6750.0,
+        "evidence_age_at_request_ms": 1500.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 6750.0,
+        "evidence_age_at_request_ms": 1500.0
+      }
+    },
+    {
+      "speed_kmh": 80,
+      "distance_m": 150,
+      "phase": 1.0,
+      "f_max_ms": 6750.0,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 6750.0,
+        "evidence_age_at_request_ms": 2000.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 6750.0,
+        "evidence_age_at_request_ms": 2000.0
+      }
+    },
+    {
+      "speed_kmh": 110,
+      "distance_m": 20,
+      "phase": 0.0,
+      "f_max_ms": 654.5454545454545,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 654.5454545454545,
+        "evidence_age_at_request_ms": 0.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 654.5454545454545,
+        "evidence_age_at_request_ms": 0.0
+      }
+    },
+    {
+      "speed_kmh": 110,
+      "distance_m": 20,
+      "phase": 0.25,
+      "f_max_ms": 654.5454545454545,
+      "hil": {
+        "n": 50,
+        "k": 0,
+        "p": 0.0,
+        "ci95": [
+          0.0,
+          0.07135003417431873
+        ],
+        "budget_ms": 654.5454545454545,
+        "evidence_age_at_request_ms": 500.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 654.5454545454545,
+        "evidence_age_at_request_ms": 500.0
+      }
+    },
+    {
+      "speed_kmh": 110,
+      "distance_m": 20,
+      "phase": 0.5,
+      "f_max_ms": 654.5454545454545,
+      "hil": {
+        "n": 50,
+        "k": 0,
+        "p": 0.0,
+        "ci95": [
+          0.0,
+          0.07135003417431873
+        ],
+        "budget_ms": 654.5454545454545,
+        "evidence_age_at_request_ms": 1000.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 654.5454545454545,
+        "evidence_age_at_request_ms": 1000.0
+      }
+    },
+    {
+      "speed_kmh": 110,
+      "distance_m": 20,
+      "phase": 0.75,
+      "f_max_ms": 654.5454545454545,
+      "hil": {
+        "n": 50,
+        "k": 0,
+        "p": 0.0,
+        "ci95": [
+          0.0,
+          0.07135003417431873
+        ],
+        "budget_ms": 654.5454545454545,
+        "evidence_age_at_request_ms": 1500.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 654.5454545454545,
+        "evidence_age_at_request_ms": 1500.0
+      }
+    },
+    {
+      "speed_kmh": 110,
+      "distance_m": 20,
+      "phase": 1.0,
+      "f_max_ms": 654.5454545454545,
+      "hil": {
+        "n": 50,
+        "k": 0,
+        "p": 0.0,
+        "ci95": [
+          0.0,
+          0.07135003417431873
+        ],
+        "budget_ms": 654.5454545454545,
+        "evidence_age_at_request_ms": 2000.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 654.5454545454545,
+        "evidence_age_at_request_ms": 2000.0
+      }
+    },
+    {
+      "speed_kmh": 110,
+      "distance_m": 50,
+      "phase": 0.0,
+      "f_max_ms": 1636.3636363636365,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 1636.3636363636365,
+        "evidence_age_at_request_ms": 0.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 1636.3636363636365,
+        "evidence_age_at_request_ms": 0.0
+      }
+    },
+    {
+      "speed_kmh": 110,
+      "distance_m": 50,
+      "phase": 0.25,
+      "f_max_ms": 1636.3636363636365,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 1636.3636363636365,
+        "evidence_age_at_request_ms": 500.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 1636.3636363636365,
+        "evidence_age_at_request_ms": 500.0
+      }
+    },
+    {
+      "speed_kmh": 110,
+      "distance_m": 50,
+      "phase": 0.5,
+      "f_max_ms": 1636.3636363636365,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 1636.3636363636365,
+        "evidence_age_at_request_ms": 1000.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 1636.3636363636365,
+        "evidence_age_at_request_ms": 1000.0
+      }
+    },
+    {
+      "speed_kmh": 110,
+      "distance_m": 50,
+      "phase": 0.75,
+      "f_max_ms": 1636.3636363636365,
+      "hil": {
+        "n": 50,
+        "k": 0,
+        "p": 0.0,
+        "ci95": [
+          0.0,
+          0.07135003417431873
+        ],
+        "budget_ms": 1636.3636363636365,
+        "evidence_age_at_request_ms": 1500.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 1636.3636363636365,
+        "evidence_age_at_request_ms": 1500.0
+      }
+    },
+    {
+      "speed_kmh": 110,
+      "distance_m": 50,
+      "phase": 1.0,
+      "f_max_ms": 1636.3636363636365,
+      "hil": {
+        "n": 50,
+        "k": 0,
+        "p": 0.0,
+        "ci95": [
+          0.0,
+          0.07135003417431873
+        ],
+        "budget_ms": 1636.3636363636365,
+        "evidence_age_at_request_ms": 2000.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 1636.3636363636365,
+        "evidence_age_at_request_ms": 2000.0
+      }
+    },
+    {
+      "speed_kmh": 110,
+      "distance_m": 100,
+      "phase": 0.0,
+      "f_max_ms": 3272.727272727273,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 3272.727272727273,
+        "evidence_age_at_request_ms": 0.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 3272.727272727273,
+        "evidence_age_at_request_ms": 0.0
+      }
+    },
+    {
+      "speed_kmh": 110,
+      "distance_m": 100,
+      "phase": 0.25,
+      "f_max_ms": 3272.727272727273,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 3272.727272727273,
+        "evidence_age_at_request_ms": 500.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 3272.727272727273,
+        "evidence_age_at_request_ms": 500.0
+      }
+    },
+    {
+      "speed_kmh": 110,
+      "distance_m": 100,
+      "phase": 0.5,
+      "f_max_ms": 3272.727272727273,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 3272.727272727273,
+        "evidence_age_at_request_ms": 1000.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 3272.727272727273,
+        "evidence_age_at_request_ms": 1000.0
+      }
+    },
+    {
+      "speed_kmh": 110,
+      "distance_m": 100,
+      "phase": 0.75,
+      "f_max_ms": 3272.727272727273,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 3272.727272727273,
+        "evidence_age_at_request_ms": 1500.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 3272.727272727273,
+        "evidence_age_at_request_ms": 1500.0
+      }
+    },
+    {
+      "speed_kmh": 110,
+      "distance_m": 100,
+      "phase": 1.0,
+      "f_max_ms": 3272.727272727273,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 3272.727272727273,
+        "evidence_age_at_request_ms": 2000.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 3272.727272727273,
+        "evidence_age_at_request_ms": 2000.0
+      }
+    },
+    {
+      "speed_kmh": 110,
+      "distance_m": 150,
+      "phase": 0.0,
+      "f_max_ms": 4909.090909090909,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 4909.090909090909,
+        "evidence_age_at_request_ms": 0.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 4909.090909090909,
+        "evidence_age_at_request_ms": 0.0
+      }
+    },
+    {
+      "speed_kmh": 110,
+      "distance_m": 150,
+      "phase": 0.25,
+      "f_max_ms": 4909.090909090909,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 4909.090909090909,
+        "evidence_age_at_request_ms": 500.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 4909.090909090909,
+        "evidence_age_at_request_ms": 500.0
+      }
+    },
+    {
+      "speed_kmh": 110,
+      "distance_m": 150,
+      "phase": 0.5,
+      "f_max_ms": 4909.090909090909,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 4909.090909090909,
+        "evidence_age_at_request_ms": 1000.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 4909.090909090909,
+        "evidence_age_at_request_ms": 1000.0
+      }
+    },
+    {
+      "speed_kmh": 110,
+      "distance_m": 150,
+      "phase": 0.75,
+      "f_max_ms": 4909.090909090909,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 4909.090909090909,
+        "evidence_age_at_request_ms": 1500.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 4909.090909090909,
+        "evidence_age_at_request_ms": 1500.0
+      }
+    },
+    {
+      "speed_kmh": 110,
+      "distance_m": 150,
+      "phase": 1.0,
+      "f_max_ms": 4909.090909090909,
+      "hil": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 4909.090909090909,
+        "evidence_age_at_request_ms": 2000.0
+      },
+      "ideal": {
+        "n": 50,
+        "k": 50,
+        "p": 1.0,
+        "ci95": [
+          0.9286499658256813,
+          1.0
+        ],
+        "budget_ms": 4909.090909090909,
+        "evidence_age_at_request_ms": 2000.0
+      }
+    }
+  ]
+}

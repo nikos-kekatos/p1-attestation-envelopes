@@ -1,0 +1,14 @@
+# Rig-only dependencies. The rig-free scripts (contract.py, reanalyse_pilot.py,
+# envelope.py, interval_sweep.py, contention_sensitivity.py, loaded_arm_test.py,
+# analyse.py) need nothing beyond the Python standard library and must stay that
+# way, so do not import anything from here into them.
+#
+# Pinned to the versions the thesis rig ran (Fedora's python3-paho-mqtt is
+# 1.6.1). paho-mqtt 2.x also works: every client in this harness is built by a
+# make_client() helper that passes CallbackAPIVersion.VERSION1 when the
+# attribute exists and falls back to the 1.x constructor when it does not,
+# because mqtt.Client(client_id=...) is a TypeError on 2.0+. If you unpin to
+# 2.x, keep that guard -- the callback signatures used throughout are the v1
+# ones, and dropping the guard changes on_connect/on_disconnect arities.
+paho-mqtt==1.6.1
+requests==2.32.3

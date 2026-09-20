@@ -1,0 +1,29 @@
+EtE delay (100% load)
+
+Mean
+
+538.74 ms
+
+Min
+
+438.67 ms
+
+Max
+
+656.15 ms
+
+Attestation delay (100% load)
+
+Mean
+
+26.24 ms
+
+Min
+
+14.40 ms
+
+Max
+
+59.20 ms
+
+(+27.7%) overall system delay load
