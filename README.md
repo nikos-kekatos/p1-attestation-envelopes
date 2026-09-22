@@ -4,7 +4,7 @@ Code and data for:
 
 > **Mission-Aware Attestation Envelopes for Time-Critical Autonomous Action:
 > A Hardware-in-the-Loop V2I Study**
-> Dimitrios Nikou, Nikolaos Kekatos, Sofia Petridou, Stylianos Basagiannis.
+> Dimitrios Nikou, Nikolaos Kekatos, Sophia Petridou, Stylianos Basagiannis.
 
 The paper formulates remote attestation as a runtime-assurance *contract* rather
 than a binary gate: an authorisation holds only when integrity is valid, the
